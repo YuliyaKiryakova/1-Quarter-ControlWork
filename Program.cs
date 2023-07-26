@@ -23,9 +23,7 @@ void CreateOutputArray(string[] arrayIn, string[] arrayOut)
     for (int i = 0; i < arrayIn.Length; i++)
     {
         if (arrayIn[i].Length <= 3)
-        {
             arrayOut[i] = arrayIn[i];
-        }
     }
 }
 
