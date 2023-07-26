@@ -20,13 +20,11 @@ void FillArray(string[] arrayIn)
 
 void CreateOutputArray(string[] arrayIn, string[] arrayOut)
 {
-    int index = 0;
     for (int i = 0; i < arrayIn.Length; i++)
     {
         if (arrayIn[i].Length <= 3)
         {
-            arrayOut[index] = arrayIn[i];
-            index++;
+            arrayOut[i] = arrayIn[i];
         }
     }
 }
